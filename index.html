@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta content="width = device-width , initial-scale = 1.0" name="viewport">
+        <link rel="stylesheet" href="/css/main.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+        <main>
+
+            
+            <div class="container">
+
+            <div class="modal-body">
+                <h3>Welcome to the Tic Tac Toe Game!</h3>
+                <p>It’s time to choose your figure.</p>
+                <p id="test"></p>
+                <div class="reset">
+                    <button class="reset-buttom " onclick="resetear()" ><i class="fa fa-power-off"></i></button>
+                </div>
+              </div>
+              
+    
+                <div class="container-bottom">
+
+                    <button id="first" onclick="operacion(this.id)"> </button> 
+                    <button id="second" onclick="operacion(this.id)"></button>
+                    <button id="third" onclick="operacion(this.id)"> </button>
+                    <button id="fouth" onclick="operacion(this.id)">  </button> 
+                    <button id="fifth" onclick="operacion(this.id)"> </button>
+                    <button id="sixth" onclick="operacion(this.id)"> </button>
+                    <button id="seventh" onclick="operacion(this.id)"> </button>
+                    <button id="eighth" onclick="operacion(this.id)">  </button>
+                    <button id="ninth" onclick="operacion(this.id)">  </button>  
+                   
+                    <!-- <img src="/tictactoc/img/0.png" /> -->
+                </div><!--fin del container-bottom-->
+                
+            </div><!--fin del container-->
+                <div class="modal-footer">
+                    
+                    <button type="button" id="x" class="btn" data-dismiss="modal" onclick="setFig(this.id)"><span class="fa fa-times"><span></button>
+                    <div class="message"></div>
+                    <button type="button" id="0" class="btn" data-dismiss="modal" onclick="setFig(this.id)"><span class="fa fa-circle-o"><span></button>
+                </div><!--fin del modal-footer -->
+        </main><!--fin del main-->
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
+</html>
+
+

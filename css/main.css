@@ -1,0 +1,183 @@
+/**ESTILOS GLOBALES**/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+body{
+background-color: #ffffff;
+}
+img{
+   width: 82px;
+  
+}
+button{
+    border: none;
+    width: 148px;
+    height: 131px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #fff;
+    
+}
+
+
+/**CONTENEDOR**/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 564px;
+    text-align: end;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+.container-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.modal-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+}
+.modal-body{
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 10px;
+}
+
+.modal-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 49px;
+}
+.btn{
+    width: 57px;
+    height: 54px;
+    margin: 1px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.message{
+    color:#6f6f6f;
+    font-weight: 300;
+}
+
+.reset{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.reset-buttom{
+    border: none;
+    margin-right: 10px;
+    height: 28px;
+}
+
+i.fa.fa-power-off {
+    font-size: 31px;
+}
+
+i.fa.fa-power-off:hover {
+    color: red;
+}
+
+/**BORDER DE LOS BOTONES**/
+#first{
+    border-top: none;
+     border-left: none;
+     cursor: pointer;
+}
+
+#second{
+    border-top:none;
+    cursor: pointer;
+}
+
+#third{
+    border-top:none; 
+    border-right: none;
+    cursor: pointer;
+}
+
+#fouth{
+    border-left:none;
+    cursor: pointer;
+}
+
+#sixth{
+    border-right:none;
+    cursor: pointer;
+}
+#fifth{
+    cursor: pointer;
+}
+
+#seventh{
+     border-bottom:none;
+     border-left: none;
+     cursor: pointer;
+}
+
+#eighth{
+   border-bottom:none;
+   cursor: pointer;
+}
+#ninth{
+    border-bottom:none;
+    border-right: none;
+    cursor: pointer;
+}
+
+
+
+/**MEDIA QUERY**/
+
+@media only screen and (min-width:400px){
+    .container-bottom{
+       width: 67%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .container-bottom{
+       width: 41%;
+    }
+}
+
+@media only screen and (min-width:1310px){
+    .container-bottom { 
+
+        /*mi latop funciona con este tamano*/
+       width: 33%;
+      
+      
+    }
+
+
+}
+
+@media only screen and (min-width:1500px){
+    .container-bottom{
+
+        /*mi latop funciona con este tamano*/
+       width: 29%;
+    }
+}
