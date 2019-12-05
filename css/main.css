@@ -1,31 +1,34 @@
 /**ESTILOS GLOBALES**/
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     box-sizing: border-box;
 }
-body{
-background-color: #ffffff;
+
+body {
+    background-color: #ffffff;
 }
-img{
-   width: 82px;
-  
+
+img {
+    width: 82px;
 }
-button{
+
+button {
     border: none;
     width: 148px;
     height: 131px;
     border: 1px solid black;
     outline: none;
     background-color: #fff;
-    
 }
 
 
 /**CONTENEDOR**/
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -35,36 +38,36 @@ button{
     text-align: end;
     align-content: center;
     justify-content: center;
-   
 }
 
-.container-bottom{
+.container-bottom {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
+
 .modal-header {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-bottom: 60px;
-    
 }
-.modal-body{
+
+.modal-body {
     width: 100%;
     text-align: center;
     padding: 35px;
     margin-bottom: 10px;
 }
 
-.modal-footer{
+.modal-footer {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     margin-top: 49px;
 }
-.btn{
+
+.btn {
     width: 57px;
     height: 54px;
     margin: 1px;
@@ -73,19 +76,19 @@ button{
     cursor: pointer;
 }
 
-.message{
-    color:#6f6f6f;
+.message {
+    color: #6f6f6f;
     font-weight: 300;
 }
 
-.reset{
+.reset {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 27px;
 }
 
-.reset-buttom{
+.reset-buttom {
     border: none;
     margin-right: 10px;
     height: 28px;
@@ -99,85 +102,82 @@ i.fa.fa-power-off:hover {
     color: red;
 }
 
+
 /**BORDER DE LOS BOTONES**/
-#first{
+
+#first {
     border-top: none;
-     border-left: none;
-     cursor: pointer;
-}
-
-#second{
-    border-top:none;
+    border-left: none;
     cursor: pointer;
 }
 
-#third{
-    border-top:none; 
+#second {
+    border-top: none;
+    cursor: pointer;
+}
+
+#third {
+    border-top: none;
     border-right: none;
     cursor: pointer;
 }
 
-#fouth{
-    border-left:none;
+#fouth {
+    border-left: none;
     cursor: pointer;
 }
 
-#sixth{
-    border-right:none;
-    cursor: pointer;
-}
-#fifth{
-    cursor: pointer;
-}
-
-#seventh{
-     border-bottom:none;
-     border-left: none;
-     cursor: pointer;
-}
-
-#eighth{
-   border-bottom:none;
-   cursor: pointer;
-}
-#ninth{
-    border-bottom:none;
+#sixth {
     border-right: none;
     cursor: pointer;
 }
 
+#fifth {
+    cursor: pointer;
+}
+
+#seventh {
+    border-bottom: none;
+    border-left: none;
+    cursor: pointer;
+}
+
+#eighth {
+    border-bottom: none;
+    cursor: pointer;
+}
+
+#ninth {
+    border-bottom: none;
+    border-right: none;
+    cursor: pointer;
+}
 
 
 /**MEDIA QUERY**/
 
-@media only screen and (min-width:400px){
-    .container-bottom{
-       width: 67%;
+@media only screen and (min-width:400px) {
+    .container-bottom {
+        width: 67%;
     }
 }
 
-@media only screen and (min-width:768px){
-    .container-bottom{
-       width: 41%;
+@media only screen and (min-width:768px) {
+    .container-bottom {
+        width: 41%;
     }
 }
 
-@media only screen and (min-width:1310px){
-    .container-bottom { 
-
+@media only screen and (min-width:1310px) {
+    .container-bottom {
         /*mi latop funciona con este tamano*/
-       width: 33%;
-      
-      
+        width: 33%;
     }
-
-
 }
 
-@media only screen and (min-width:1500px){
-    .container-bottom{
-
+@media only screen and (min-width:1500px) {
+    .container-bottom {
         /*mi latop funciona con este tamano*/
-       width: 29%;
+        width: 29%;
     }
 }
