@@ -105,49 +105,49 @@ i.fa.fa-power-off:hover {
 
 /**BORDER´S BUTTOM**/
 
-#first {
+.first {
     border-top: none;
     border-left: none;
     cursor: pointer;
 }
 
-#second {
+.second {
     border-top: none;
     cursor: pointer;
 }
 
-#third {
+.third {
     border-top: none;
     border-right: none;
     cursor: pointer;
 }
 
-#fouth {
+.fouth {
     border-left: none;
     cursor: pointer;
 }
 
-#sixth {
+.sixth {
     border-right: none;
     cursor: pointer;
 }
 
-#fifth {
+.fifth {
     cursor: pointer;
 }
 
-#seventh {
+.seventh {
     border-bottom: none;
     border-left: none;
     cursor: pointer;
 }
 
-#eighth {
+.eighth {
     border-bottom: none;
     cursor: pointer;
 }
 
-#ninth {
+.ninth {
     border-bottom: none;
     border-right: none;
     cursor: pointer;
